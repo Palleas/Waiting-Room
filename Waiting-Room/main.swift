@@ -46,6 +46,3 @@ task.launch()
 fetchFact()
 
 while NSRunLoop.currentRunLoop().runMode(NSDefaultRunLoopMode, beforeDate: NSDate.distantFuture() as NSDate) {}
-
-println("done")
-
